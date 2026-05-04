@@ -1,0 +1,25 @@
+name: Metrics
+on:
+  schedule:
+    - cron: "0 0 * * *" # runs daily
+  workflow_dispatch: # lets you trigger manually too
+  push:
+    branches: ["main"]
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlevel-labs/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: charmanita
+          template: classic
+          base: header, activity, community, repositories
+          plugin_languages: yes
+          plugin_languages_ignored: html, css
+          filename: metrics.svg
+          output_action: commit
+          committer_branch: main
