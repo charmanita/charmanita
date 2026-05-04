@@ -27,3 +27,11 @@ I aspire to be in the IT workspace and eventually become a system administrator.
 ### Contributions over the year:
 
 <img src="./metrics.isocalendar.svg" alt="Isometric Calendar" width="100%">
+
+---
+
+### My current streak:
+
+<a href="https://git.io/streak-stats">
+   <img src="https://streak-stats.demolab.com?user=charmanita" alt="GitHub Streak">
+</a>
