@@ -33,5 +33,5 @@ I aspire to be in the IT workspace and eventually become a system administrator.
 ### My current streak:
 
 <a href="https://git.io/streak-stats">
-   <img src="https://streak-stats.demolab.com?user=charmanita" alt="GitHub Streak">
+   <img src="https://streak-stats.demolab.com?user=charmanita&theme=dark" alt="GitHub Streak">
 </a>
